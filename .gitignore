@@ -1,0 +1,34 @@
+echo # Dependencies > .gitignore
+echo node_modules/ >> .gitignore
+echo .pnp/ >> .gitignore
+echo .pnp.js >> .gitignore
+echo. >> .gitignore
+echo # Environment variables >> .gitignore
+echo .env >> .gitignore
+echo .env.local >> .gitignore
+echo .env.development.local >> .gitignore
+echo .env.test.local >> .gitignore
+echo .env.production.local >> .gitignore
+echo. >> .gitignore
+echo # Production build >> .gitignore
+echo build/ >> .gitignore
+echo dist/ >> .gitignore
+echo. >> .gitignore
+echo # Debug logs >> .gitignore
+echo npm-debug.log* >> .gitignore
+echo yarn-debug.log* >> .gitignore
+echo yarn-error.log* >> .gitignore
+echo. >> .gitignore
+echo # IDE and editor files >> .gitignore
+echo .idea/ >> .gitignore
+echo .vscode/ >> .gitignore
+echo *.swp >> .gitignore
+echo *.swo >> .gitignore
+echo .DS_Store >> .gitignore
+echo. >> .gitignore
+echo # Testing >> .gitignore
+echo coverage/ >> .gitignore
+echo. >> .gitignore
+echo # Misc >> .gitignore
+echo *.log >> .gitignore
+echo .cache/ >> .gitignore
